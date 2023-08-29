@@ -111,6 +111,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <hr className="my-16 border-t-4 border-gray-300 dark:border-gray-700" />
         <section id="about" className="min-h-screen">
           <div className="text-center">
             <h1 className="text-4xl text-teal-600 font-medium dark:text-teal-400 md:text-5xl">
@@ -136,6 +137,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <hr className="my-16 border-t-4 border-gray-300 dark:border-gray-700" />
         <section id="skills" className="min-h-screen">
           <div className="text-center">
             <h1 className="text-4xl text-teal-600 font-medium dark:text-teal-400 md:text-5xl">
@@ -154,7 +156,7 @@ export default function Home() {
                 <h3 className="text-2xl text-teal-600 font-medium dark:text-teal-400 md:text-xl">
                   Compétences Back-End
                 </h3>
-                <div className=" p-10 flex justify-center text-5xl">
+                <div className=" p-10 flex justify-center text-5xl space-x-7">
                 <BiLogoPhp />
                 <AiOutlineConsoleSql />
                 <SiPhpmyadmin />
@@ -164,7 +166,7 @@ export default function Home() {
                 <h3 className="text-2xl text-teal-600 font-medium dark:text-teal-400 md:text-xl">
                   Compétences Front-End
                 </h3>
-                <div className=" p-10 flex justify-center text-5xl">
+                <div className=" p-10 flex justify-center text-5xl space-x-7">
                 <AiFillHtml5 />
                 <BiLogoCss3 />
                 <BiLogoJavascript />
@@ -176,7 +178,7 @@ export default function Home() {
                 <h3 className="text-2xl text-teal-600 font-medium dark:text-teal-400 md:text-xl">
                   Compétences Diverses
                 </h3>
-                <div className=" p-10 flex justify-center text-5xl">
+                <div className=" p-10 flex justify-center text-5xl space-x-7">
                 <AiFillWindows />
                 <DiLinux />
                 </div>
