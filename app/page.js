@@ -59,6 +59,14 @@ export default function Home() {
                   href="#"
                   className="font-burtons dark:text-teal-400 md:text-lg"
                 >
+                  Compétences
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="font-burtons dark:text-teal-400 md:text-lg"
+                >
                   Projets
                 </a>
               </li>
