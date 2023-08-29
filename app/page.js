@@ -66,7 +66,7 @@ export default function Home() {
                   href="#skills"
                   className="font-burtons dark:text-teal-400 md:text-lg"
                 >
-                  Compétences
+                  Competences
                 </a>
               </li>
               <li>
@@ -92,11 +92,11 @@ export default function Home() {
               Enzo Six
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Développeur Web.
+              Developpeur Web.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Salut, je suis Enzo Six. Un passionné de développement web.
-              Développeur basé dans la commune d'Aubin, France 📍.
+              Salut, je suis Enzo Six. Un passionn de developpement web.
+              Developpeur base dans la commune d&apos;Aubin, France 📍.
             </p>
             <div className="text-4xl flex justify-center gap-16 py-3 text-black dark:text-gray-400">
               <a href="https://www.linkedin.com/in/enzo-six-8b5727267/">
@@ -123,16 +123,16 @@ export default function Home() {
                 className="w-72 h-72 md:w-96 md:h-96 rounded-md"
               />
               <p className="p-16 flex justify-start text-lg dark:text-white md:text-xl">
-                Hello ! Moi c'est Enzo SIX, j'ai 19 ans et j'ai obtenu à la fin
-                de l'année scolaire 2023 mon diplôme de BTS SNIR. Suite à ce
-                diplôme, je souhaite continuer jusqu'à au moins bac+3 afin
-                d'avoir un bachelor en développement web (en alternance). Étant
-                donné que je n'en ai pas trouvé, je me réserve une année pour
-                m'autoformer en développement web afin d'acquérir le plus de
-                connaissances possible dans ce domaine. Je suis passionné par le
-                développement web, notamment ses deux côtés : front-end/back-end
-                et je pratique souvent les deux. A terme, j'aimerais devenir
-                officiellement développeur web pour une entreprise.
+                Hello ! Moi c&apos;est Enzo SIX, j&apos;ai 19 ans et j&apos;ai obtenu à la fin
+                de l&apos;annee scolaire 2023 mon diplôme de BTS SNIR. Suite à ce
+                diplôme, je souhaite continuer jusqu&apos;à au moins bac+3 afin
+                d&apos;avoir un bachelor en developpement web (en alternance). etant
+                donne que je n&apos;en ai pas trouve, je me reserve une annee pour
+                m&apos;autoformer en developpement web afin d&apos;acqurir le plus de
+                connaissances possible dans ce domaine. Je suis passionne par le
+                developpement web, notamment ses deux côtes : front-end/back-end
+                et je pratique souvent les deux. A terme, j&apos;aimerais devenir
+                officiellement developpeur web pour une entreprise.
               </p>
             </div>
           </div>
@@ -141,18 +141,18 @@ export default function Home() {
         <section id="skills" className="min-h-screen">
           <div className="text-center">
             <h1 className="text-4xl text-teal-600 font-medium dark:text-teal-400 md:text-5xl">
-              Compétences
+              Competences
             </h1>
             <p className="text-lg p-16 dark:text-white md:text-xl max-w-4xl mx-auto">
-              Mes compétences sont en perpetuelle amélioration car je pratique
-              le développement web de manière presque quotidienne, j'en apprends
-              tous les jours, surtout en étant impliqué, curieux et passionné !
+              Mes competences sont en perpetuelle amelioration car je pratique
+              le developpement web de manière presque quotidienne, j&apos;en apprends
+              tous les jours, surtout en etant implique, curieux et passionne !
             </p>
             <div class="grid grid-rows-3 grid-flow-col gap-4 p-16">
               
               <div class="col-span-2">
                 <h3 className="text-2xl text-teal-600 font-medium md:text-xl dark:text-white">
-                  Compétences Back-End
+                  Competences Back-End
                 </h3>
                 <div className=" p-10 flex justify-center text-5xl space-x-7 dark:text-gray-400">
                 <BiLogoPhp />
@@ -162,7 +162,7 @@ export default function Home() {
               </div>
               <div class="col-span-2">
                 <h3 className="text-2xl text-teal-600 font-medium md:text-xl dark:text-white">
-                  Compétences Front-End
+                  Competences Front-End
                 </h3>
                 <div className=" p-10 flex justify-center text-5xl space-x-7 dark:text-gray-400">
                 <AiFillHtml5 />
@@ -174,7 +174,7 @@ export default function Home() {
               </div>
               <div class="col-span-2">
                 <h3 className="text-2xl text-teal-600 font-medium md:text-xl dark:text-white">
-                  Compétences Diverses
+                  Competences Diverses
                 </h3>
                 <div className=" p-10 flex justify-center text-5xl space-x-7 dark:text-gray-400">
                 <AiFillWindows />
