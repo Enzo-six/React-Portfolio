@@ -143,7 +143,7 @@ export default function Home() {
             <h1 className="text-4xl text-teal-600 font-medium dark:text-teal-400 md:text-5xl">
               Compétences
             </h1>
-            <p className="text-lg p-16 dark:text-teal-400 md:text-xl max-w-4xl mx-auto">
+            <p className="text-lg p-16 dark:text-white md:text-xl max-w-4xl mx-auto">
               Mes compétences sont en perpetuelle amélioration car je pratique
               le développement web de manière presque quotidienne, j'en apprends
               tous les jours, surtout en étant impliqué, curieux et passionné !
@@ -153,20 +153,20 @@ export default function Home() {
                 <Image src={cv_screen} width={500} height={600} />
               </div>
               <div class="col-span-2">
-                <h3 className="text-2xl text-teal-600 font-medium dark:text-teal-400 md:text-xl">
+                <h3 className="text-2xl text-teal-600 font-medium md:text-xl dark:text-white">
                   Compétences Back-End
                 </h3>
-                <div className=" p-10 flex justify-center text-5xl space-x-7">
+                <div className=" p-10 flex justify-center text-5xl space-x-7 dark:text-gray-400">
                 <BiLogoPhp />
                 <AiOutlineConsoleSql />
                 <SiPhpmyadmin />
                 </div>
               </div>
               <div class="col-span-2">
-                <h3 className="text-2xl text-teal-600 font-medium dark:text-teal-400 md:text-xl">
+                <h3 className="text-2xl text-teal-600 font-medium md:text-xl dark:text-white">
                   Compétences Front-End
                 </h3>
-                <div className=" p-10 flex justify-center text-5xl space-x-7">
+                <div className=" p-10 flex justify-center text-5xl space-x-7 dark:text-gray-400">
                 <AiFillHtml5 />
                 <BiLogoCss3 />
                 <BiLogoJavascript />
@@ -175,10 +175,10 @@ export default function Home() {
                 </div>
               </div>
               <div class="col-span-2">
-                <h3 className="text-2xl text-teal-600 font-medium dark:text-teal-400 md:text-xl">
+                <h3 className="text-2xl text-teal-600 font-medium md:text-xl dark:text-white">
                   Compétences Diverses
                 </h3>
-                <div className=" p-10 flex justify-center text-5xl space-x-7">
+                <div className=" p-10 flex justify-center text-5xl space-x-7 dark:text-gray-400">
                 <AiFillWindows />
                 <DiLinux />
                 </div>
