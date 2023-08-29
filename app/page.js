@@ -80,7 +80,8 @@ export default function Home() {
               Développeur Web.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Salut, je suis Enzo Six. Un passionné de développement web. Développeur basé dans la commune d'Aubin, France 📍.
+              Salut, je suis Enzo Six. Un passionné de développement web.
+              Développeur basé dans la commune d'Aubin, France 📍.
             </p>
             <div className="text-4xl flex justify-center gap-16 py-3 text-black dark:text-gray-400">
               <a href="https://www.linkedin.com/in/enzo-six-8b5727267/">
@@ -105,18 +106,32 @@ export default function Home() {
               <BiLogoTailwindCss />
             </div>
           </div>
-          </section>
-          <section id="about" className="min-h-screen">
+        </section>
+        <section id="about" className="min-h-screen">
           <div className="text-center p-5 py-5">
             <h1 className="text-4xl text-teal-600 font-medium dark:text-teal-400 md:text-5xl">
               A propos de moi
             </h1>
-            <div class="grid gap-1 grid-cols-2 grid-rows-1 p-36">
-            <Image src={dev_web} className="ml-56 w-60 h-60 md:w-72 md:h-72 rounded-md"/>
-            <p>test</p>
+            <div class="flex justify-centergrid gap-1 grid-cols-2 grid-rows-1 p-36">
+              <Image
+                src={dev_web}
+                className="w-72 h-72 md:w-96 md:h-96 rounded-md"
+              />
+              <p className="p-16 flex justify-start text-lg dark:text-white md:text-xl">
+                Hello ! Moi c'est Enzo SIX, j'ai 19 ans et j'ai obtenu à la fin
+                de l'année scolaire 2023 mon diplôme de BTS SNIR. Suite à ce diplôme,
+                je souhaite continuer jusqu'à au moins bac+3 afin d'avoir un
+                bachelor en développement web (en alternance). Étant donné que
+                je n'en ai pas trouvé, je me réserve une année pour m'autoformer
+                en développement web afin d'acquérir le plus de connaissances
+                possible dans ce domaine. Je suis passionné par le développement
+                web, notamment ses deux côtés : front-end/back-end et je
+                pratique souvent les deux. A terme, j'aimerais devenir
+                officiellement développeur web pour une entreprise.
+              </p>
             </div>
-  </div>
-</section>
+          </div>
+        </section>
       </main>
     </div>
   );
