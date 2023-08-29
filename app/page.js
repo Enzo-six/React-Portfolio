@@ -1,19 +1,26 @@
 "use client";
 import { useState } from "react";
 import Head from "next/head";
-import { AiFillLinkedin, AiFillGithub, AiFillHtml5 } from "react-icons/ai";
+import {
+  AiFillLinkedin,
+  AiFillGithub,
+  AiFillHtml5,
+  AiOutlineConsoleSql,
+  AiFillWindows,
+} from "react-icons/ai";
 import {
   BiLogoCss3,
   BiLogoJavascript,
   BiLogoReact,
   BiLogoTailwindCss,
+  BiLogoPhp,
 } from "react-icons/bi";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { SiPhpmyadmin } from "react-icons/si";
+import { DiLinux } from "react-icons/di";
 import developedbynzo from "../public/developedbynzo.jpg";
 import dev_web from "../public/dev_web.jpg";
-import code from "../public/code.png";
-import design from "../public/design.png";
-import consulting from "../public/consulting.png";
+import cv_screen from "../public/cv_screen.png";
 import Image from "next/image";
 
 export default function Home() {
@@ -26,7 +33,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-        <section id="accueil" className="min-h-screen">
+        <section id="home" className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-burtons text-xl dark:text-teal-400 md:text-lg">
               Enzo.dev
@@ -40,7 +47,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="#accueil"
+                  href="#home"
                   className="font-burtons dark:text-teal-400 md:text-lg"
                 >
                   Accueil
@@ -56,7 +63,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#skills"
                   className="font-burtons dark:text-teal-400 md:text-lg"
                 >
                   Compétences
@@ -102,41 +109,78 @@ export default function Home() {
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-48 h-48 relative overflow-hidden mt-14 md:h-64 md:w-64">
               <Image src={developedbynzo} layout="fill" objectFit="cover" />
             </div>
-            <div className="text-4xl flex justify-center items-center py-3 mt-10 gap-7 text-black dark:text-gray-400">
-              <h4 className="text-2xl m-0 p-0 text-black dark:text-gray-400">
-                Compétences
-              </h4>
-              <div className="border-r border-black h-8 dark:text-gray-400"></div>
-              <AiFillHtml5 />
-              <BiLogoCss3 />
-              <BiLogoJavascript />
-              <BiLogoReact />
-              <BiLogoTailwindCss />
-            </div>
           </div>
         </section>
         <section id="about" className="min-h-screen">
-          <div className="text-center p-5 py-5">
+          <div className="text-center">
             <h1 className="text-4xl text-teal-600 font-medium dark:text-teal-400 md:text-5xl">
               A propos de moi
             </h1>
-            <div class="flex justify-centergrid gap-1 grid-cols-2 grid-rows-1 p-36">
+            <div class="flex justify-center grid-cols-2 grid-rows-1 p-20">
               <Image
                 src={dev_web}
                 className="w-72 h-72 md:w-96 md:h-96 rounded-md"
               />
               <p className="p-16 flex justify-start text-lg dark:text-white md:text-xl">
                 Hello ! Moi c'est Enzo SIX, j'ai 19 ans et j'ai obtenu à la fin
-                de l'année scolaire 2023 mon diplôme de BTS SNIR. Suite à ce diplôme,
-                je souhaite continuer jusqu'à au moins bac+3 afin d'avoir un
-                bachelor en développement web (en alternance). Étant donné que
-                je n'en ai pas trouvé, je me réserve une année pour m'autoformer
-                en développement web afin d'acquérir le plus de connaissances
-                possible dans ce domaine. Je suis passionné par le développement
-                web, notamment ses deux côtés : front-end/back-end et je
-                pratique souvent les deux. A terme, j'aimerais devenir
+                de l'année scolaire 2023 mon diplôme de BTS SNIR. Suite à ce
+                diplôme, je souhaite continuer jusqu'à au moins bac+3 afin
+                d'avoir un bachelor en développement web (en alternance). Étant
+                donné que je n'en ai pas trouvé, je me réserve une année pour
+                m'autoformer en développement web afin d'acquérir le plus de
+                connaissances possible dans ce domaine. Je suis passionné par le
+                développement web, notamment ses deux côtés : front-end/back-end
+                et je pratique souvent les deux. A terme, j'aimerais devenir
                 officiellement développeur web pour une entreprise.
               </p>
+            </div>
+          </div>
+        </section>
+        <section id="skills" className="min-h-screen">
+          <div className="text-center">
+            <h1 className="text-4xl text-teal-600 font-medium dark:text-teal-400 md:text-5xl">
+              Compétences
+            </h1>
+            <p className="text-lg p-16 dark:text-teal-400 md:text-xl max-w-4xl mx-auto">
+              Mes compétences sont en perpetuelle amélioration car je pratique
+              le développement web de manière presque quotidienne, j'en apprends
+              tous les jours, surtout en étant impliqué, curieux et passionné !
+            </p>
+            <div class="grid grid-rows-3 grid-flow-col gap-4 p-16">
+              <div class="row-span-3">
+                <Image src={cv_screen} width={500} height={600} />
+              </div>
+              <div class="col-span-2">
+                <h3 className="text-2xl text-teal-600 font-medium dark:text-teal-400 md:text-xl">
+                  Compétences Back-End
+                </h3>
+                <div className=" p-10 flex justify-center text-5xl">
+                <BiLogoPhp />
+                <AiOutlineConsoleSql />
+                <SiPhpmyadmin />
+                </div>
+              </div>
+              <div class="col-span-2">
+                <h3 className="text-2xl text-teal-600 font-medium dark:text-teal-400 md:text-xl">
+                  Compétences Front-End
+                </h3>
+                <div className=" p-10 flex justify-center text-5xl">
+                <AiFillHtml5 />
+                <BiLogoCss3 />
+                <BiLogoJavascript />
+                <BiLogoReact />
+                <BiLogoTailwindCss />
+                </div>
+              </div>
+              <div class="col-span-2">
+                <h3 className="text-2xl text-teal-600 font-medium dark:text-teal-400 md:text-xl">
+                  Compétences Diverses
+                </h3>
+                <div className=" p-10 flex justify-center text-5xl">
+                <AiFillWindows />
+                <DiLinux />
+                </div>
+              </div>
             </div>
           </div>
         </section>
