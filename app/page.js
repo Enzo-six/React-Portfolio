@@ -20,7 +20,7 @@ import { SiPhpmyadmin } from "react-icons/si";
 import { DiLinux } from "react-icons/di";
 import developedbynzo from "../public/developedbynzo.jpg";
 import dev_web from "../public/dev_web.jpg";
-import cv_screen from "../public/cv_screen.png";
+//import cv_screen from "../public/cv_screen.png";
 import Image from "next/image";
 
 export default function Home() {
@@ -149,9 +149,7 @@ export default function Home() {
               tous les jours, surtout en étant impliqué, curieux et passionné !
             </p>
             <div class="grid grid-rows-3 grid-flow-col gap-4 p-16">
-              <div class="row-span-3">
-                <Image src={cv_screen} width={500} height={600} />
-              </div>
+              
               <div class="col-span-2">
                 <h3 className="text-2xl text-teal-600 font-medium md:text-xl dark:text-white">
                   Compétences Back-End
